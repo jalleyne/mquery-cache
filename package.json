@@ -1,0 +1,36 @@
+{
+  "name": "mquery-cache",
+  "version": "0.0.1",
+  "description": "TTL based cache library for mquery supporting mongoose and native mongodb query result caching.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jalleyne/mquery-cache.git"
+  },
+  "keywords": [
+    "mquery",
+    "cache",
+    "ttl",
+    "mongoose",
+    "mongodb",
+    "promise"
+  ],
+  "author": "Jovan Alleyne <jovan@bigmountainideas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jalleyne/mquery-cache/issues"
+  },
+  "homepage": "https://github.com/jalleyne/mquery-cache",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "string-hash": "^1.1.0",
+    "ttl-cache": "^1.0.2",
+    "underscore": "^1.7.0"
+  }
+}
