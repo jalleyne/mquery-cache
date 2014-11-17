@@ -1,6 +1,6 @@
 {
   "name": "mquery-cache",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "TTL based cache library for mquery supporting mongoose and native mongodb query result caching.",
   "main": "index.js",
   "directories": {
